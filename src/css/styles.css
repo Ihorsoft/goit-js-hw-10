@@ -23,3 +23,56 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.container {
+  margin-top: 12px;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  margin-top: 12px;
+}
+
+
+.timer {
+  display: flex;
+  width: 308px;
+ /* height: 16px;*/
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.field {
+ display: flex;
+ flex-wrap: wrap; 
+/* gap: 24px;*/
+/* text-align: center; */
+ width: 62px;
+ 
+}
+.value {
+ /* width: 12px;*/
+ width: 62px;
+font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.lable {
+  width: 62px; 
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+ /* width: 12px;*/
+
+ 
+}
+
